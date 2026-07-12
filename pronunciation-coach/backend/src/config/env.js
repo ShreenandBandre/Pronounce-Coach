@@ -9,6 +9,9 @@ export const env = {
   maxSeconds: Number(process.env.MAX_AUDIO_SECONDS_MAX || 45),
 };
 
+if (!process.env.DATABASE_URL) console.error("MISSING: DATABASE_URL");
+if (!process.env.GROQ_API_KEY) console.error("MISSING: GROQ_API_KEY");
+
 if (!env.DATABASE_URL || !env.GROQ_API_KEY) {
   console.error("CRITICAL: Missing environment variables!");
   process.exit(1);
