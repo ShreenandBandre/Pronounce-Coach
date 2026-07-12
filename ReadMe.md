@@ -17,6 +17,9 @@ AI-powered pronunciation feedback app — upload a short speech clip, get a scor
 
 ---
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/40dc9a16-7436-491c-a3f0-78aaf90f0ea8" />
+
+
 ## Tech Stack
 
 | Layer | Stack |
