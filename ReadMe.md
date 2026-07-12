@@ -69,7 +69,7 @@ VITE_API_URL=http://localhost:4000
 
 ---
 
-## 🚀 Run It — Docker (recommended)
+##  Run It — Docker (recommended)
 
 Prerequisites: **Docker** and **Docker Compose** installed, and both `.env` files created as above.
 
@@ -92,7 +92,7 @@ To stop: `docker compose down` (add `-v` to also wipe the Postgres volume).
 
 ---
 
-## 🖥 Run It — Native Setup (no Docker)
+##  Run It — Native Setup (no Docker)
 
 Requires Node.js 20+ and a local/remote PostgreSQL instance.
 
@@ -113,7 +113,7 @@ npm run dev                 # http://localhost:5173
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Route | Description |
 |---|---|---|
@@ -125,7 +125,7 @@ npm run dev                 # http://localhost:5173
 
 ---
 
-## 🔐 DPDP Act 2023 Compliance
+##  DPDP Act 2023 Compliance
 
 - Raw audio is processed in-memory only and never written to disk or persisted — it's discarded immediately after scoring.
 - Explicit consent is required in the UI before any upload is accepted.
@@ -135,7 +135,7 @@ npm run dev                 # http://localhost:5173
 
 ---
 
-## ☁️ Deployment
+##  Deployment
 
 - **Frontend:** Vercel — live at [pronounce-coach.vercel.app](https://pronounce-coach.vercel.app/)
 - **Backend + DB:** Render (Docker web service + managed Postgres)
@@ -144,7 +144,7 @@ Full step-by-step deployment instructions (Git branching, Render setup, Vercel s
 
 ---
 
-## 🗺 Roadmap
+##  Roadmap
 
 - Replace confidence-heuristic scoring with a true phoneme-level acoustic aligner
 - Expand multilingual support beyond English, Hindi, and Marathi
